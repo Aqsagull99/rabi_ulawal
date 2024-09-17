@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>History</title>
+
+<style>
+
+/* Header section */
+
+/* header{
+    width: 100%; 
+    max-width: 100%;
+    padding-left: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+header nav a{
+    color: #fff;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+a.active{
+    background: #14ff72cb;
+    border-radius: 2px;
+}
+
+a:hover{
+    background: #14ff72cb;
+    border-radius: 2px; */
+/* } */
+
+/* Header section */
+
+/* Section Styling */
+.seerat-nabi {
+        background-color: rgba(255, 255, 0, 0.815);
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #007bff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+    }
+
+    .section-title::after {
+        content: "";
+        width: 100px;
+        height: 3px;
+        background-color: #007bff;
+        display: block;
+        margin: 15px auto 0;
+    }
+
+    .section-subtitle {
+        color: #6c757d;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    /* Event Items Styling */
+    .event-item {
+        background-image: url(https://i.pinimg.com/564x/1c/c5/54/1cc554c98f8dcfb9b27f998093cdbd85.jpg);
+        border-left: 4px solid #007bff;
+        margin-bottom: 15px;
+        padding: 15px 20px;
+        transition: all 0.3s ease-in-out;
+        /* color: whitesmoke; */
+    }
+
+    .event-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Quote Box Styling */
+    .quote-box {
+        /* background-color: #ffffff; */
+        background-image: url(https://i.pinimg.com/564x/1c/c5/54/1cc554c98f8dcfb9b27f998093cdbd85.jpg);
+
+        padding: 20px;
+        border-left: 5px solid #007bff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 20px;
+    }
+
+    .quote-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .quote-text {
+        font-size: 1.2rem;
+        color: #333;
+        font-style: italic;
+    }
+
+    .quote-footer {
+        font-size: 0.9rem;
+        color: #6c757d;
+    }
+
+
+
+    /* Styling for Khatam-e-Nabuwat Section */
+    .khatam-title {
+        font-size: 2.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #007bff;
+        letter-spacing: 1.5px;
+        position: relative;
+    }
+
+    .khatam-title::before {
+        /* content: "﷽";
+     */
+
+     
+        font-size: 1.8rem;
+        position: absolute;
+        top: -35px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #28a745;
+    }
+
+    .khatam-text {
+        font-size: 1.15rem;
+        font-style: italic;
+        color: #495057;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+
+    .khatam-text::first-letter {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #007bff;
+    }
+
+
+    .logo {
+    height: 60px; /* Adjust height */
+    width: auto;  /* Maintain aspect ratio */
+    border-radius: 50px;
+    border-style: dotted ;
+}
+
+    /* Responsive Styling */
+    @media (max-width: 768px) {
+        .section-title {
+            font-size: 2rem;
+        }
+
+        .section-subtitle {
+            font-size: 1rem;
+        }
+
+        .event-item, .quote-box {
+            margin-bottom: 25px;
+        }
+    }
+
+    li{
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+
+<!-- navbar -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: whitesmoke;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="https://i.pinimg.com/564x/4f/0f/a1/4f0fa1abad36dfdd3ecc53b1ed29172d.jpg" alt="Your Logo" class="logo"> <!-- Adjust height as needed -->
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="histry.html#history">History of Muhammad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimomal.html#beauty-of-madina">Beauty of Madina</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quraniayat.html#quranic-ayaat">Quranic Ayah</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+
+
+<!-- Seerat-un-Nabi Section -->
+<section class="seerat-nabi py-5 bg-white">
+    <div class="container">
+        <h2 class="text-center mb-4 section-title">A Brief History of Our Beloved Prophet Muhammad (SAWW)</h2>
+        <p class="lead text-center section-subtitle" style="font-weight: bold;">The life of Prophet Muhammad (SAWW) serves as a model for humanity. His teachings and actions shaped the moral and spiritual foundation of Islam.</p>
+
+        <div class="row mt-5">
+            <!-- Events Section -->
+            <div class="col-md-6">
+                <h3 class="text-primary mb-4">Important Events in Seerat-un-Nabi (SAWW)</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item event-item"><strong>Birth:</strong> Born in 570 CE in Makkah, in the tribe of Quraysh.</li>
+                    <li class="list-group-item event-item"><strong>First Revelation:</strong> Received first divine revelation in Cave Hira in 610 CE.</li>
+                    <li class="list-group-item event-item"><strong>Migration to Madinah:</strong> Hijrah to Madinah in 622 CE, marking the beginning of the Islamic calendar.</li>
+                    <li class="list-group-item event-item"><strong>Treaty of Hudaybiyyah:</strong> Signed a peace treaty with Quraysh in 628 CE, a crucial turning point for Muslims.</li>
+                    <li class="list-group-item event-item"><strong>Conquest of Makkah:</strong> Conquered Makkah in 630 CE, establishing peace without bloodshed.</li>
+                    <li class="list-group-item event-item"><strong>Farewell Sermon:</strong> Delivered his final sermon during Hajj in 632 CE, emphasizing justice and equality.</li>
+                </ul>
+            </div>
+            
+            <!-- Quotes Section -->
+            <div class="col-md-6">
+                <h3 class="text-primary mb-4">Quotes from Sahaba-e-Kiraam (RA)</h3>
+                <blockquote class="blockquote mb-4 quote-box">
+                    <p class="quote-text">"The Prophet (SAWW) was the most generous of all people, and he used to be more generous in the month of Ramadan."</p>
+                    <footer class="blockquote-footer mt-2 text-right quote-footer">Abdullah bin Abbas (RA)</footer>
+                </blockquote>
+                <blockquote class="blockquote mb-4 quote-box">
+                    <p class="quote-text">"None of you truly believes until he loves for his brother what he loves for himself."</p>
+                    <footer class="blockquote-footer mt-2 text-right quote-footer">Prophet Muhammad (SAWW) as narrated by Anas bin Malik (RA)</footer>
+                </blockquote>
+                <blockquote class="blockquote quote-box">
+                    <p class="quote-text">"The best among you are those who have the best manners and character."</p>
+                    <footer class="blockquote-footer mt-2 text-right quote-footer">Prophet Muhammad (SAWW) as narrated by Abdullah bin Amr (RA)</footer>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- Khatam-e-Nabuwat Section -->
+         <div class="row mt-5">
+            <div class="col-12">
+                <h3 class="text-primary text-center mb-4 khatam-title">Khatam-e-Nabuwat</h3>
+<p class="text-center text-muted khatam-text">Prophet Muhammad (SAWW) is the final prophet of Allah, sealing the line of prophethood. The belief in Khatam-e-Nabuwat (Finality of Prophethood) is a cornerstone of Islamic faith, affirming that no prophet will come after him.</p>
+
+            </div>
+        </div>
+    </div> 
+
+
+
+</section>
+
+<!-- Bootstrap 5 JS Bundle with Popper included -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
